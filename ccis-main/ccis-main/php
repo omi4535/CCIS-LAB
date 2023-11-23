@@ -1,0 +1,7 @@
+FROM php:7.4-cli
+COPY index.php .
+CMD ["php", "index.php"]
+
+<?php
+	echo "Hello Its php";
+?>
